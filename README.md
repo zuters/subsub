@@ -10,7 +10,7 @@ This repository contains Python 3.6+ text segmentation scripts for machine trans
 
 ## Usage instructions
 
-GENSEG is used in the following way:
+SUBSUB is used in the following way:
   - Learning phase (segmentation model produced): [learn_subsub.py]
   - Segmentation phase (using segmentation model obtained in the previous phase): [apply_subsub.py]
   - Removing segmentation: [unprocess_subsub.py]
