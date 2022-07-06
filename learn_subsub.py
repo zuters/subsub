@@ -43,5 +43,5 @@ if __name__ == '__main__':
     if args.input.name != '<stdin>':
         args.input = open(args.input.name, 'r', encoding='utf-8')
     voc = extract_frequent_vocabulary(args.input,alphaonly=0,tolower=True,addwordend=False)
-    subsub_learn(voc,args.output.name,args.maxforms,args.bestendings,args.wordocc)
+    subsub_learn(voc,args.output.name,args.maxforms,args.bestendings)
     
